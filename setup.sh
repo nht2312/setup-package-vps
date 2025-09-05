@@ -269,7 +269,7 @@ show_menu() {
     
     echo "--- Hệ thống cơ bản ---"
     echo "1) Update hệ thống"
-    echo "2) Git"
+    echo "2) Git + Cấu hình"
     
     echo -e "\n--- Web Server & Database ---"
     echo "3) CloudPanel (đã có Nginx, PHP, MySQL)"
@@ -280,9 +280,9 @@ show_menu() {
     echo "8) Redis"
     
     echo -e "\n--- Development Tools ---"
-    echo "9) PHP + modules"
-    echo "10) Composer"
-    echo "11) Node.js + PM2"
+    echo "9) PHP (8.2/8.3/8.4) + Full Extensions"
+    echo "10) Composer (Latest)"
+    echo "11) Node.js (via NVM) + PM2"
     echo "12) Yarn"
     echo "13) Docker + Compose"
     
@@ -293,7 +293,7 @@ show_menu() {
     
     echo -e "\n--- Cài đặt nhanh ---"
     echo "20) Cài CloudPanel + Tools cơ bản"
-    echo "21) Cài LEMP Stack (Nginx, MySQL, PHP)"
+    echo "21) Cài LEMP Stack (Nginx, MySQL, PHP 8.3)"
     echo "22) Cài Full Stack Development"
     echo "99) Cài tất cả"
     
